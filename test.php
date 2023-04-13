@@ -81,6 +81,5 @@ class Test extends PHPUnit\Framework\TestCase {
 
         $login = 'ProfDeMath';
         $this->assertNotEquals('12345',$getUser($login,$getConn())['password']);
-        $this->assertEquals('1','2');
     }
 }
